@@ -36,6 +36,7 @@ mid-p {
 
 h1 {
   font-family: "Noto Sana Japanese", sans-serif;
+  color: #000;
 }
 
 .mid-section {
@@ -53,5 +54,5 @@ footer {
 
 .btn-ghost:hover {
   border-color: #860927;
-  color: #860927;
+  color: #005e76;
 }
