@@ -28,14 +28,13 @@ li a :hover {
   top: 0;
 }
 
-
 mid-p {
   width: 60%;
   margin: auto;
 }
 
 h1 {
-  font-family: "Noto Sana Japanese", sans-serif;
+  font-family: "Noto Sans Japanese", sans-serif;
   color: #000;
 }
 
@@ -49,10 +48,10 @@ footer {
 }
 
 .btn {
-  color: #b64
+  color: #b64;
 }
 
 .btn-ghost:hover {
-  border-color: #860927;
+  border-color: #0084a6;
   color: #005e76;
 }
