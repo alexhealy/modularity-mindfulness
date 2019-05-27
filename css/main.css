@@ -3,14 +3,20 @@ html {
   background-color: #fff;
 }
 
-li a {
-  text-decoration: none;
+.nav {
   color: #005e76;
-  border-bottom: 2px #8bc9d9 solid;
+  text-decoration: none;
+  border-style: solid;
+  border-width: 2px;
+  border-color: #8bc9d9;
+  border-left: 0;
+  border-right: 0;
+  border-top: 0;
 }
 
-li a :hover {
-  color: #860927;
+.nav:hover {
+  color: #000;
+  border-color: #000;
 }
 
 .skip-links {
@@ -52,21 +58,20 @@ footer {
   border-top: 2px #e2e2e2 solid;
 }
 
-a {
-  color: #005e76;
-  text-decoration: none;
-}
-
 .btn {
   border-style: solid;
-  border-width: 2px;
-  border-color: #8bc9d9;
-  border-radius: 5px;
-  background-color: #fff;
+  border-width: 2px;
+  border-color: #8bc9d9;
+  border-radius: 5px;
+  background-color: #fff;
 }
 
 .btn-ghost:hover {
   background-color: #8bc9d9;
   border-color: #0084a6;
+}
 
+a {
+  color: #005e76;
+  text-decoration: none;
 }
